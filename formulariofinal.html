@@ -1,0 +1,67 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de contacto</title>
+<link rel="stylesheet" type="text/css" href="formulariogoogle.css">
+
+  </head>
+
+<body>  
+  <div class="contact_form">
+
+    <div class="formulario">      
+      <h1>Danos tu opinion rellenando este formulario</h1>
+        <h3>Escríbenos y nos ayudaras a mejorar.</h3>
+        <h6>1. *Datos Personales</h6>
+
+
+          <form action="submeter-formulario.php" method="post">    
+            <img src="youtube-music-logo.png" width="400" height="120" alt="logo"/> 
+        
+            
+                <p>
+                  <label for="nombre" class="colocar_nombre">Nombre
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                </p>
+              
+                <p>
+                  <label for="email" class="colocar_email">Email
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                </p>
+            
+                <p>
+                  <label for="telefono" class="colocar_telefono">Teléfono
+                  </label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                </p>    
+              
+                <p>
+                  <label for="codigo postal" class="colocar_codigo postal">Código postal
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="introducir_codigo postal" id="codigo postal" required="obligatorio" placeholder="Escribe tu codigo postal">
+                </p>    
+              
+                <p>
+                  <label for="recomendacion" class="colocar_recomendacion">Recomendacion
+                    <span class="obligatorio">*</span>
+                  </label>                     
+                                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                </p>                    
+              
+                <button type="submit" name="siguiente_seccion" id="siguiente"><p>Siguiente</p></button>
+
+                <p class="aviso">
+                  <span class="obligatorio"> * </span>Campos obligatorios.
+                </p>          
+
+          </form>
+    </div>  
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de contacto</title>
+<link rel="stylesheet" type="text/css" href="formulariofinal.css">
+
+  </head>
+
+<body>  
+  <div class="contact_form">
+
+    <div class="formulario">      
+      <h1>Escribe tus datos aqui</h1>
+        <h3></h3>
+        <h3>1. *Datos Personales</h3>
+
+
+          <form action="submeter-formulario.php" method="post">    
+            <img src="https://securityintelligence.com/wp-content/uploads/2018/10/si-eight-character-password-feature.jpg" width="430" height="220" alt="logo"/> 
+        
+            <br><br><br>
+                <p>
+                  <label for="nombre" class="colocar_nombre">Nombre
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                </p>
+              
+                <p>
+                  <label for="email" class="colocar_email">E-mail
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                </p>
+            
+                <p>
+                  <label for="telefono" class="colocar_telefono">Contraseña
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                </p>
+                
+
+
+                <p><input type="text" name="nombre" id="nombre_id"></p>
+                <input type="submit">
+              
+
+
+          </form>
+    </div>  
+  </div>
+
+</body>
+</html>
